@@ -1,0 +1,52 @@
+h1.site-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 50px 0 25px;
+}
+
+table#accounts {
+  border-collapse: collapse;
+}
+
+table#accounts, th, td {
+  border: 1px solid #cccccc;
+}
+
+th {
+  padding: 5px 10px;
+}
+
+td {
+  padding: 0 !important;
+}
+
+td.delete i {
+  color: red;
+  cursor: pointer;
+  font-size: 24px;
+  margin: 10px -1px 10px 13px;
+}
+
+input[type=text],
+input[type=number] {
+  border: none;
+  padding: 10px 15px;
+  width: 100%;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#newRowBtn {
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 24px;
+}
+
+#newRowBtn:hover {
+  color: #000000;
+}
