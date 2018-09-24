@@ -40,13 +40,33 @@ input[type=number]::-webkit-outer-spin-button {
   margin: 0;
 }
 
-#newRowBtn {
-  color: green;
+#rowControl {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 65px;
+}
+
+#newRowBtn,
+#deleteRowBtn {
   cursor: pointer;
   display: inline-block;
-  font-size: 24px;
+  font-size: 30px;
+}
+
+#newRowBtn {
+  color: #00B300;
 }
 
 #newRowBtn:hover {
-  color: #000000;
+  color: #006B00;
+}
+
+#deleteRowBtn {
+  color: #FF4646;
+}
+
+#deleteRowBtn:hover {
+  color: #B23131;
 }

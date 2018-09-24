@@ -12,14 +12,13 @@
       <h1 class="site-title">Payoff Estimator</h1>
       <form action="">
         <table id="accounts" class="table">
-          <tr>
+          <tr id="row-1">
             <th scope="col">Account</th>
             <th scope="col">Starting Balance</th>
             <th scope="col">Interest Rate</th>
             <th scope="col">Monthly Payment</th>
-            <th scope="col" class="delete"></th>
           </tr>
-          <tr>
+          <tr id="row-2">
             <td>
               <input type="text">
             </td>
@@ -32,12 +31,12 @@
             <td>
               <input type="number" min="0.01" step="0.01">
             </td>
-            <td class="delete">
-              <span id="deleteRowBtn"><i class="fa fa-minus-circle"></i></span>
-            </td>
           </tr>
         </table>
-        <span id="newRowBtn"><i class="fa fa-plus-circle"></i></span>
+        <div id="rowControl">
+          <span id="newRowBtn"><i class="fa fa-plus-circle"></i></span>
+          <span id="deleteRowBtn"><i class="fa fa-minus-circle"></i></span>
+        </div>
       </form>
     </div>
     <script src="main.js"></script>
