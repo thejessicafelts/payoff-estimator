@@ -49,7 +49,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 #newRowBtn,
-#deleteRowBtn {
+button.deleteRowBtn {
+  background: none;
+  border: none;
   cursor: pointer;
   display: inline-block;
   font-size: 30px;
@@ -63,10 +65,10 @@ input[type=number]::-webkit-outer-spin-button {
   color: #006B00;
 }
 
-#deleteRowBtn {
+button.deleteRowBtn {
   color: #FF4646;
 }
 
-#deleteRowBtn:hover {
+button.deleteRowBtn:hover {
   color: #B23131;
 }
